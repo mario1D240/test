@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1613098617,
+	"version": 1618042878,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -22,6 +22,11 @@
 		"images/targetchoice-sheet0.png",
 		"images/strike-sheet0.png",
 		"images/combatzoneunclipper.png",
+		"images/light-sheet0.png",
+		"images/咕咕咕-sheet0.png",
+		"images/hlight-sheet0.png",
+		"images/logo-sheet0.png",
+		"images/bb-sheet0.png",
 		"images/sanshead-sheet0.png",
 		"images/sansbody-sheet0.png",
 		"images/sansbody-sheet1.png",
@@ -73,6 +78,9 @@
 		"media/battletext.ogg",
 		"media/playerheal.ogg",
 		"media/gasterblast2.ogg",
+		"media/damage.ogg",
+		"media/aaaaaa.ogg",
+		"media/gu.ogg",
 		"media/mus_zz_megalovania.ogg",
 		"icon-16.png",
 		"icon-32.png",
