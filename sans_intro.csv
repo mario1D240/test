@@ -1,6 +1,6 @@
 0,SansAnimation,,,,,,,,
 0,SansHead,ClosedEyes,,,,,,,
-0,SansText,is a MTH exam day                 outside.,,,,,,,
+3.0,SansText,is a MTH exam day                 outside.,,,,,,,
 0,SansText,Some student are reject              the exam.,,,,,,,
 0,SansText,Some student already             dead.,,,,,,
 0,SanaHead,NoEyes,,,,,
@@ -43,4 +43,4 @@
 0,GasterBlaster,1,640,0,460,246,180,0.333,0.26666
 0,GasterBlaster,1,0,0,259,166,90,0.333,0.26666
 0,GasterBlaster,1,640,480,379,460,-90,0.333,0.26666
-6.0,EndAttack,,,,,,,,
+4.0,EndAttack,,,,,,,,
