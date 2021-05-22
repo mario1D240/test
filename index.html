@@ -98,7 +98,7 @@
 			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
 				cr_setSuspended(true);
 			else
-				cr_setSuspended(false);
+				cr_setSuspended(true);
 		};
 		
 		document.addEventListener("visibilitychange", onVisibilityChanged, false);
