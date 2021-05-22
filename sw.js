@@ -55,7 +55,7 @@ function IsUrlInLazyLoadList(url, lazyLoadList)
 		for (const lazyLoadRegex of lazyLoadList)
 		{
 			if (new RegExp(lazyLoadRegex).test(url))
-				return true;
+				return false;
 		}
 	}
 	catch (err)
@@ -63,7 +63,7 @@ function IsUrlInLazyLoadList(url, lazyLoadList)
 		console.error(CONSOLE_PREFIX + "Error matching in lazy-load list: ", err);
 	}
 	
-	return false;
+	return true;
 };
 
 function WriteLazyLoadListToStorage(lazyLoadList)
@@ -119,7 +119,7 @@ async function IsUpdatePending()
 async function GetMainPageUrl()
 {
 	const allClients = await clients.matchAll({
-		includeUncontrolled: true,
+		includeUncontrolled: false,
 		type: "window"
 	});
 	
