@@ -63,7 +63,7 @@ function IsUrlInLazyLoadList(url, lazyLoadList)
 		console.error(CONSOLE_PREFIX + "Error matching in lazy-load list: ", err);
 	}
 	
-	return true;
+	return false;
 };
 
 function WriteLazyLoadListToStorage(lazyLoadList)
@@ -395,7 +395,7 @@ self.addEventListener("fetch", event =>
 		// allow the main request to complete, then check for updates
 		event.waitUntil(
 			responsePromise
-			.then(() => UpdateCheck(true))		 // not first check
+			.then(() => UpdateCheck(false))		 // not first check
 		);
 	}
 
