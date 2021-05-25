@@ -55,7 +55,7 @@ function IsUrlInLazyLoadList(url, lazyLoadList)
 		for (const lazyLoadRegex of lazyLoadList)
 		{
 			if (new RegExp(lazyLoadRegex).test(url))
-				return false;
+				return true;
 		}
 	}
 	catch (err)
@@ -119,7 +119,7 @@ async function IsUpdatePending()
 async function GetMainPageUrl()
 {
 	const allClients = await clients.matchAll({
-		includeUncontrolled: false,
+		includeUncontrolled: true,
 		type: "window"
 	});
 	
@@ -395,7 +395,7 @@ self.addEventListener("fetch", event =>
 		// allow the main request to complete, then check for updates
 		event.waitUntil(
 			responsePromise
-			.then(() => UpdateCheck(false))		 // not first check
+			.then(() => UpdateCheck(true))		 // not first check
 		);
 	}
 
