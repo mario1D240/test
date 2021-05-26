@@ -43,4 +43,6 @@
 0,GasterBlaster,1,640,0,460,246,180,0.333,0.26666
 0,GasterBlaster,1,0,0,259,166,90,0.333,0.26666
 0,GasterBlaster,1,640,480,379,460,-90,0.333,0.26666
-4.0,EndAttack,,,,,,,,
+0,SansText,here we go,,,
+0,EndAttack,,,,,,,,
+
