@@ -3,7 +3,7 @@
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
-		"jquery-3.1.4.min",
+		"jquery-3.4.1.min.js",
 		"offlineClient.js",
 		"images/vpad-sheet0.png",
 		"images/hpbackground.png",
