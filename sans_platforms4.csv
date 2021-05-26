@@ -8,4 +8,10 @@
 0,BoneVRepeat,283,267,40,3,90,11,85
 0,BoneVRepeat,363,331,40,1,120,13,95
 0,BoneVRepeat,443,248,40,3,90,11,85
-7.3,EndAttack,,,,,,,
+0,SET,X,18,,,,,
+0,SUB,X,$X,1,,,,
+0,GetHeartPos,HeartX,HeartY,,,,,
+0,BoneH,$HeartX,-5,5,1,300,,
+0,Sound,BoneStab,,,,,,
+0.4,JMPNZ,12,$X,,,,,
+0.1,EndAttack,,,,,,,
