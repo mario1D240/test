@@ -10,7 +10,9 @@
 0.06666,BlackScreen,0,,,,,,,
 0,Sound,Flash,,,,,,,
 0,SansTorso,shrug,,,,
-0,Sans
+0,SansAnimation,Tired,,,,
+0,SansText,are...                   are....                     are you hit me...,,,
+0,SansText,i 
 0,CombatZoneResizeInstant,239,226,404,391,,,,
 0,HeartTeleport,320,304,,,,,,
 0,HeartMode,0,,,,,,,
